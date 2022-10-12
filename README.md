@@ -7,9 +7,9 @@ Init and config files for my PhyOS setup.
 - fix counter scrolling between different apps (chromium vs ff)
 - Fonts, CJK
 - Use lfcd to change directory in terminal
+- Add wifi to bar
 
 ## To-do
-- Add wifi to bar
 - lfcd shortcut
 - Customise shell more
 - Enable Caps, swap with Esc
