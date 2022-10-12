@@ -1,0 +1,6 @@
+Sleep : echo mem | sudo tee /sys/power/state
+
+Eduroam : nmcli c up eduroam --ask
+
+
+
