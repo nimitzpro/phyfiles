@@ -2,5 +2,5 @@ Sleep : echo mem | sudo tee /sys/power/state
 
 Eduroam : nmcli c up eduroam --ask
 
-
-
+Check performance mode: cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+Set performance mode: echo "performance" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
